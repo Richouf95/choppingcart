@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: url('pexels-photo-960540.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+header button {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu {
+    width: 100%;
+    background: white;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#conteneurMenu {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+li {
+    margin: 3px;
+}
+
+#divAbout {
+    display: flex;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: auto;
+}
+
+#biscut {
+    width: 400px;
+}
+
+#aboutText {
+    margin-right: 70px;
+}
+
+#ourStore {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+#listbtn {
+    margin: 30px;
+}
+
+#s {
+    display: flex;
+    justify-content: center;
+}
+
+#s i {
+    background: red;
+    padding: 1px;
+}
+
+#grise {
+    background: rgb(234, 233, 235);
+    padding: 50px;
+}
+
+.xt {
+    max-width: 250px;
+    max-height: 200px;
+}
+
+.Xtimg {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 200px;
+    max-height: 200px;
+    margin: 0;
+    size: 10px;
+}
+
+.Xtprice {
+    background: white;
+    min-width: 250px;
+    max-width: 250px;
+    display: flex;
+    margin-top: -5px;
+    justify-content: space-between;
+}
+
+.Xtprice div{
+    padding: 10px;
+    font-size: 1.1em;
+    max-height: 20px;
+}
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.p {
+    position: relative;
+    bottom: 69.5px;
+    left: 52.5px;
+    visibility: hidden;
+    padding: 100px;
+}
+.p i {
+    background: rgb(127, 186, 69);
+    color: rgb(234, 233, 235);
+    border-radius: 50%;
+    padding-left: 15px;
+    padding: 10px;
+    font-size: 2em;
+}
+
+#achats {
+    min-width: 300px;
+    min-height: 400px;
+    position: fixed;
+    top: 54px;
+    right: 0px;
+    visibility: hidden;
+    border-radius: 0  0 0 20%;
+    background: #efcb2a;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+#achats img{
+    width: 50px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#total {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#basAvecBtn div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#basAvecBtn div button{
+    padding: 10px;
+}
+#liste {
+    min-height: 300px;
+    max-height: 300px;
+    overflow: scroll;
+}
+
+#valid {
+    text-align: center;
+    color: green;
+    visibility: hidden;
+}
